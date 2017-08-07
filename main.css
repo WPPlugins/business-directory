@@ -1,0 +1,55 @@
+/*
+*  Form Styles
+*/
+.bizdir_form_text{
+	width:30%;
+	text-align:right;
+	vertical-align:top;
+	padding:3px 5px 0 0;
+	font-weight:bold;
+	font-size:9pt;
+}
+.bizdir_form_input{
+	text-align:left;
+	vertical-align:top;
+	padding:2px 0 3px 0;
+	text-align:left;
+}
+.bizdir_input_style, .bizdir_input_text_area, .bizdir_input_select{ width:80%; }
+.bizdir_input_text_area{ height:150px; }
+
+.bizdir_notes, .bizdir_notes_grey{ font-size:7pt; }
+.bizdir_notes_grey{
+	color:#777777;
+	text-decoration:none;
+}
+
+.bizdir_error,.bizdir_error_box{ color:#FF0000; }
+.bizdir_message{ color:#00CC00; }
+.bizdir_error,.bizdir_error_box,.bizdir_message{
+	font-weight:bold;
+	font-size:8pt;
+}
+.bizdir_error_box{
+	border:2px solid #FF0000;
+	padding:3px;
+}
+
+.bizdir_floating_input{
+	float:left;
+	width:33.3%;
+}
+/*
+*  Directory Styles
+*/
+#bizdir_directory h3{ padding:3px 5px 3px 5px; }
+#bizdir_directory td{ padding:0 0 15px 0; }
+#bizdir_directory p{
+	padding:0 0 2px 0;
+	margin:0;
+}
+
+.bizdir_linked_title {
+	text-decoration:none;
+	color:#000000;
+}
